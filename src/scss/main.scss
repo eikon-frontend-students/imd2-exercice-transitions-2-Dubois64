@@ -104,3 +104,24 @@ video {
 // ---------------------------------------------
 // Votre code ici :
 // ---------------------------------------------
+
+.product-cart {
+  display: none;
+}
+
+.product-card:hover {
+  display: block;
+}
+
+//2
+
+//3
+.scissors {
+  transition-property: color;
+  transition-duration: 1s;
+  animation-delay: 1s;
+}
+
+.scissors:hover {
+  background-color: rgb(65, 65, 110);
+}
